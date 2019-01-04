@@ -20,8 +20,8 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
-var adminprefix = '1'
+const prefix = "3";
+var adminprefix = '3'
 /////////////////////////
 ////////////////////////
 
@@ -315,7 +315,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === '1help') {
+    if (message.content === '1he2l21p') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
@@ -334,7 +334,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '1general_commands') {
+    if (message.content === '1genera3l_comm5ands') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر عامة...**')
         .addField('avatar', "افاتار الشخص المطلوب")
